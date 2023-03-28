@@ -30,7 +30,11 @@ Created python script to load data from excel sheet : load_data.py
 
 Now created search_results.py to search wildcard
 
-RUN : python3 xyz.py
+RUN : 
+start 'elasticsearch' after sourcing bash_profile for java 
+check http://localhost:9200/
+check kibana http://localhost:5601/app/dev_tools#/console
+run scripts : python3 xyz.py
 
 
 ############################ TODO #####################################
