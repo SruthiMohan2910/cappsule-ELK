@@ -1,0 +1,92 @@
+[
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fexofenadine 120mg Tablet",
+        "price": "166.84",
+        "expiry_date": "2022-12-14 05:24:33",
+        "units": "10 tablets in 1 strip",
+        "product_name": "Allegra 120mg Tablet",
+        "sideEffects": "Headache,Drowsiness,Dizziness,Nausea,",
+        "manufacturer": "Sanofi India  Ltd"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Montelukast+Fexofenadine 10mg+120mg Tablet",
+        "price": "187.34",
+        "expiry_date": "2022-12-14 05:24:33",
+        "units": "10 tablets in 1 strip",
+        "product_name": "Allegra-M Tablet",
+        "sideEffects": "Nausea,Diarrhea,Vomiting,Skin rash,Flu-like symptoms,Headache,Drowsiness,Dizziness,",
+        "manufacturer": "Sanofi India  Ltd"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fexofenadine 180mg Tablet",
+        "price": "196.16",
+        "expiry_date": "2022-12-14 05:24:33",
+        "units": "10 tablets in 1 strip",
+        "product_name": "Allegra 180mg Tablet",
+        "sideEffects": "Headache,Drowsiness,Dizziness,Nausea,",
+        "manufacturer": "Sanofi India  Ltd"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fexofenadine 30mg/5ml Oral Suspension",
+        "price": "154.8",
+        "expiry_date": "2022-12-14 05:48:31",
+        "units": "100 ml in 1 bottle",
+        "product_name": "Allegra Suspension Raspberry & Vanilla",
+        "sideEffects": "Headache,Drowsiness,Dizziness,Nausea,",
+        "manufacturer": "Sanofi India  Ltd"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fluticasone Furoate 27.5mcg Nasal Spray",
+        "price": "296.02",
+        "expiry_date": "2022-12-14 06:06:57",
+        "units": "120 MDI in 1 bottle",
+        "product_name": "Allegra Nasal Spray",
+        "sideEffects": "Nasal discomfort,Nosebleeds,Headache,Nasal inflammation,",
+        "manufacturer": "Sanofi India  Ltd"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fluticasone Furoate+Azelastine 27.5mcg+140mcg Nasal Spray",
+        "price": "327.18",
+        "expiry_date": "2022-12-14 06:06:57",
+        "units": "7 gm in 1 bottle",
+        "product_name": "Allegra Nasal Duo Spray",
+        "sideEffects": "Taste change,Nosebleeds,Headache,",
+        "manufacturer": "Sanofi India  Ltd"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fexofenadine 30mg Tablet",
+        "price": "",
+        "expiry_date": "2022-12-14 05:24:33",
+        "units": "10 tablets in 1 strip",
+        "product_name": "Allegra 30mg Tablet",
+        "sideEffects": "Headache,Drowsiness,Dizziness,Nausea,",
+        "manufacturer": "Sanofi India  Ltd"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fexofenadine 180mg Tablet",
+        "price": "",
+        "expiry_date": "2022-12-14 05:24:33",
+        "units": "10 tablets in 1 strip",
+        "product_name": "Allegratune 180 Tablet",
+        "sideEffects": "Headache,Drowsiness,Dizziness,Nausea,",
+        "manufacturer": "Fortune Labs"
+    },
+    {
+        "prescription": "Prescription Required",
+        "composition": "Fexofenadine 120mg Tablet",
+        "price": "",
+        "expiry_date": "2022-12-14 05:24:33",
+        "units": "10 tablets in 1 strip",
+        "product_name": "Allegratune 120 Tablet",
+        "sideEffects": "Headache,Drowsiness,Dizziness,Nausea,",
+        "manufacturer": "Fortune Labs"
+    }
+]
