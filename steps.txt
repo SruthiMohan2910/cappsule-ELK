@@ -1,0 +1,48 @@
+# cappsule-ELK
+Elasticsearch installed and running on your local machine, port = 9200
+
+Installed Kibana, Running on http://localhost:5601/
+Go to devtools in kibana and do this :
+    1. Created an index : PUT pharmacy_inventory
+
+
+Created an Elasticsearch index named "pharmacy_inventory" using Kibana UI
+   2. Defined & acknowledged some fields via Kibana
+    PUT pharmacy_inventory/_mapping
+{
+  "properties": {
+    "product_name": {"type": "keyword"},
+    "description": {"type": "text"},
+    "sideEffects": {"type": "text"},
+    "prescription": {"type": "keyword"},
+    "composition": {"type": "text"},
+    "manufacturer": {"type": "keyword"},
+    "units": {"type": "text"},
+    "expiry_date": {"type": "keyword"},
+    "price": {"type": "float"}
+  }
+}
+
+############################ OR #####################################
+Created python script to load data from excel sheet : load_data.py
+#####################################################################
+
+
+Now created search_results.py to search wildcard
+
+RUN : python3 xyz.py
+
+
+############################ TODO #####################################
+
+Input may be Allegra 180 tablet
+Search Word1 or word2
+
+
+Name + strength + form
+
+
+Composition = Fexofenadine 120mg Tablet
+It can be 180 too
+So we need to know how many available strength needed too
+Also how many per strip
