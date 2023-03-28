@@ -4,7 +4,8 @@ from elasticsearch import Elasticsearch
 # create an Elasticsearch instance
 es = Elasticsearch(['http://localhost:9200/'])
 
-# dynamically get the search key - TO BE IMPLIMENTED
+# define the medicine name
+medicine_name = "Allegra"
 
 # define the search query
 query = {
@@ -14,21 +15,21 @@ query = {
                 {
                     "wildcard": {
                         "product_name": {
-                            "value": "*Allegra*"
+                            "value": f"*{medicine_name}*"
                         }
                     }
                 },
                 {
                     "wildcard": {
                         "composition": {
-                            "value": "*Allegra*"
+                            "value": f"*{medicine_name}*"
                         }
                     }
                 },
                 {
                     "wildcard": {
                         "manufacturer": {
-                            "value": "*Allegra*"
+                            "value": f"*{medicine_name}*"
                         }
                     }
                 }
